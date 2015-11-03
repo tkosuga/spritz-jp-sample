@@ -1,6 +1,9 @@
 # spritz-jp-sample
 文字を高速に読むために文章の中心を自動で揃える spritz を日本語で動作するように試してみました。
 
+# 動作サンプル（走れメロス）
+http://tkosuga.github.io/spritz-jp-sample/
+
 ## js/css/html
 https://github.com/Miserlou/Glance-Bookmarklet
 
@@ -14,5 +17,3 @@ http://chasen.org/~taku/software/TinySegmenter/
 - 表示に日本語等幅フォントを利用する
 - ドットで余白を埋めている箇所をを全角スペースにする
 - 文章の長さで切る
-
-

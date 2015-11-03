@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"></meta>
+    <head>
+        <title>OpenSpritz</title>
+	<link href='http://fonts.googleapis.com/earlyaccess/notosansjp.css' rel='stylesheet' type='text/css'>
+        <link href='index.css' rel='stylesheet' type='text/css'>
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src='spritz.js'></script>
+    </head>
+
+    <body>
+
+    <div id="container">
+
+            <h1>A Nice Cup of Tea</h1>
+            <h2>George Orwell, 12 January 1946</h2>
+            
+            <!-- 
+
+            It's going to take something like this to make it work with JSONP:
+            http://subclosure.com/demos/getjsonp.html
+
+            But let's call that 1.1.0..
+
+            javascript:(function(src, cb){var s = document.createElement('script');s.charset = 'UTF-8';document.body.insertBefore(s, document.body.firstChild);s.src = src;if(typeof cb === 'function'){s.onload = cb;s.onreadystatechange = function(){(/loaded|complete/).test(s.readyState)&&cb(s);};}return s;}('http://github.com/pure/pure/raw/master/libs/pure.js', function(e){alert('loaded');})) -->
+
+
+<div id="spritz_holder">
+        <div id="spritz_container">
+
+            <div id="guide_top">
+――――――――――<span id="notch">&#1092;</span>―――――――――――
+            </div>
+
+            <div id="spritz_result">
+                Choose a WPM to start.
+            </div>
+
+            <div id="guide_bottom">
+――――――――――――――――――――――
+            </div>
+
+            <select id="spritz_selector">
+              <option value="0">速度を選択</option>
+              <option value="1000">ゆっくり</option>
+              <option value="600">ふつう</option>
+              <option value="300">はやい</option>
+              <option value="150">まっは</option>
+            </select>
+
+            <button type="button" id="spritz_start" onClick="spritz();">再生開始</button>
+
+            <span id="spritz_credits">
+              <a href="http://github.com/Miserlou/OpenSpritz">
+                <i>OpenSpritz 1.1</i>
+              </a>
+              <a href="" onclick="hide_spritz(); return false;">
+                <i>[x]</i>
+              </a>
+            </span>
+    </div>
+</div>
+
+<div id="spritz_spacer">
+</div>
+
+
+            <br /><br />
+
+            <div id="spritz_me">
+
+　メロスは激怒した。必ず、かの邪智暴虐の王を除かなければならぬと決意した。メロスには政治がわからぬ。メロスは、村の牧人である。笛を吹き、羊と遊んで暮して来た。けれども邪悪に対しては、人一倍に敏感であった。きょう未明メロスは村を出発し、野を越え山越え、十里はなれた此のシラクスの市にやって来た。メロスには父も、母も無い。女房も無い。十六の、内気な妹と二人暮しだ。この妹は、村の或る律気な一牧人を、近々、花婿として迎える事になっていた。結婚式も間近かなのである。メロスは、それゆえ、花嫁の衣裳やら祝宴の御馳走やらを買いに、はるばる市にやって来たのだ。先ず、その品々を買い集め、それから都の大路をぶらぶら歩いた。メロスには竹馬の友があった。セリヌンティウスである。今は此のシラクスの市で、石工をしている。その友を、これから訪ねてみるつもりなのだ。久しく逢わなかったのだから、訪ねて行くのが楽しみである。歩いているうちにメロスは、まちの様子を怪しく思った。ひっそりしている。もう既に日も落ちて、まちの暗いのは当りまえだが、けれども、なんだか、夜のせいばかりでは無く、市全体が、やけに寂しい。のんきなメロスも、だんだん不安になって来た。路で逢った若い衆をつかまえて、何かあったのか、二年まえに此の市に来たときは、夜でも皆が歌をうたって、まちは賑やかであった筈だが、と質問した。若い衆は、首を振って答えなかった。しばらく歩いて老爺に逢い、こんどはもっと、語勢を強くして質問した。老爺は答えなかった。メロスは両手で老爺のからだをゆすぶって質問を重ねた。老爺は、あたりをはばかる低声で、わずか答えた。
+「王様は、人を殺します。」
+「なぜ殺すのだ。」
+「悪心を抱いている、というのですが、誰もそんな、悪心を持っては居りませぬ。」
+「たくさんの人を殺したのか。」
+「はい、はじめは王様の妹婿さまを。それから、御自身のお世嗣を。それから、妹さまを。それから、妹さまの御子さまを。それから、皇后さまを。それから、賢臣のアレキス様を。」
+「おどろいた。国王は乱心か。」
+「いいえ、乱心ではございませぬ。人を、信ずる事が出来ぬ、というのです。このごろは、臣下の心をも、お疑いになり、少しく派手な暮しをしている者には、人質ひとりずつ差し出すことを命じて居ります。御命令を拒めば十字架にかけられて、殺されます。きょうは、六人殺されました。」
+　聞いて、メロスは激怒した。「呆れた王だ。生かして置けぬ。」
+　メロスは、単純な男であった。買い物を、背負ったままで、のそのそ王城にはいって行った。たちまち彼は、巡邏の警吏に捕縛された。調べられて、メロスの懐中からは短剣が出て来たので、騒ぎが大きくなってしまった。メロスは、王の前に引き出された。
+            </div>
+
+        </div>
+    </body>
+</html>
